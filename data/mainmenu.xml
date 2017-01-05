@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "fonts" />
+	<font file="main.fnt" />	
+
+	<set path = "images\menu" />
+	<atlas>
+		<image file="menu_bg.png"/>			
+		<image file="menu_start.png"/>	
+		<image file="menu_exit.png"/>	
+		<image file="menu_help.png"/>	
+		<image file="menu_about.png"/>	
+		<image file="menu_back.png"/>	
+		<image file="menu_bg_logoless.png"/>
+		<image file="logo.png"/>
+	</atlas>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "fonts" />
+	<font file="main.fnt" />	
+
+	<set path = "images\game\characters\player"/>
+	<atlas>
+		<image file="playerWalkLeft.png" cols="21"/>
+		<image file="playerWalkRight.png" cols="21"/>
+		<image file="playerJumpLeft.png" cols="21"/>
+		<image file="playerJumpRight.png" cols="21"/>
+		<image file="playerIdleLeft.png" cols="21"/>
+		<image file="playerIdleRight.png" cols="21"/>
+	</atlas>
+
+	<set path = "images\game\weapons\rocket"/>
+	<atlas>
+		<image file="rocket_ammo.png"/>
+		<image file="rocket_explosion.png" cols="12"/>
+	</atlas>
+
+	<set path = "images\game\weapons\machinegun"/>
+	<atlas>
+		<image file="mg_ammo.png"/>
+	</atlas>
+
+	<set path = "images\game\characters\enemies\commons\goblin"/>
+	<atlas>
+		<image file="goblinWalkRight.png" cols="21"/>
+		<image file="goblinWalkLeft.png" cols="21"/>
+		<image file="goblinDieRight.png" cols="21"/>
+		<image file="goblinDieLeft.png" cols="21"/>
+	</atlas>
+	<set path = "images\game\characters\enemies\commons\totem"/>
+	<atlas>
+		<image file="totem.png"/>
+		<image file="totem_ammo.png"/>
+	</atlas>
+
+	<set path = "images\game\characters\enemies\bosses\turret"/>
+	<atlas>
+		<image file="turret.png"/>
+		<image file="turret_ammo.png"/>
+		<image file="turret_flash.png"/>
+	</atlas>
+</resources>

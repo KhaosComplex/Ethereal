@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "sounds"/>	
+
+	<sound file="playerJump.ogg"/>
+	<sound file="playerStep.ogg"/>
+	<sound file="menuSelect.ogg"/>
+	<sound file="rocketFire.ogg"/>
+	<sound file="gameTrack.ogg"/>
+	<sound file="gunFire.ogg"/>
+</resources>

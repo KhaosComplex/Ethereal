@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="box2d">
+      <UniqueIdentifier>{8194375a-9ce7-464f-bfcb-2ef6b203a07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selene">
+      <UniqueIdentifier>{393c8072-b0f9-45aa-ab85-715afbe1cc47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selene\selene">
+      <UniqueIdentifier>{e422a910-613a-4ff2-b817-35661f018584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{0cbf58bd-1c34-448b-b49f-ddba9c34e7c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tmxparser">
+      <UniqueIdentifier>{48ed5d2d-bf47-4e43-aacf-d3ca6f68d56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tmxparser\base64">
+      <UniqueIdentifier>{6d7abb2d-609d-4aa5-9d30-f2b1d10693c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ethereal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MainMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MyButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\resources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\HelpMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AboutMenuScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\GameElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2Collision.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2Distance.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2Draw.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2Math.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2Settings.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2StackAllocator.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Common\b2Timer.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2Body.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2Island.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2World.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\box2d\Box2D\Rope\b2Rope.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContactListener.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Box2DDebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lapi.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lauxlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lbaselib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lbitlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lcode.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lcorolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lctype.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ldblib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ldebug.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ldo.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ldump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lfunc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lgc.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\linit.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\liolib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\llex.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lmathlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lmem.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\loadlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lobject.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lopcodes.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\loslib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lparser.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lstate.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lstring.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lstrlib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ltable.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ltablib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\ltm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lundump.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lutf8lib.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lvm.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lua\src\lzio.c">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\miniz.c">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxEllipse.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxImage.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxImageLayer.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxLayer.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxMap.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxObject.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxObjectGroup.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxPolygon.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxPolyline.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxPropertySet.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTerrain.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTerrainArray.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTile.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTileLayer.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTileOffset.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxTileset.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\TmxUtil.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tmxparser\base64\base64.cpp">
+      <Filter>tmxparser\base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyxml\tinyxml2.cpp">
+      <Filter>tmxparser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Rocket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Dungeon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Goblin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MachineGun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TurretBoss.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TurretBossProjectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Totem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TotemProjectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ethereal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MainMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MyButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\HelpMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AboutMenuScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\GameElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Box2D.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\b2BroadPhase.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\b2Collision.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\b2Distance.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\b2DynamicTree.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2BlockAllocator.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2Draw.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2GrowableStack.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2Math.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2Settings.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2StackAllocator.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Common\b2Timer.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2Body.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2ContactManager.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2Fixture.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2Island.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2TimeStep.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2World.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\box2d\Box2D\Rope\b2Rope.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContactListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Box2DDebugDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene.h">
+      <Filter>Selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\BaseFun.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Class.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\ClassFun.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Ctor.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Dtor.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\ExceptionHandler.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\ExceptionTypes.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Fun.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\function.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\LuaName.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\LuaRef.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\MetatableRegistry.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Obj.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\ObjFun.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\primitives.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\references.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Registry.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\ResourceHandler.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Selector.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\State.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\traits.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\Tuple.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\selene\selene\util.h">
+      <Filter>Selene\selene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lctype.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lprefix.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lua.hpp">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lua\src\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxEllipse.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxImage.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxImageLayer.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxLayer.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxMap.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxMapTile.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxObject.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxObjectGroup.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxPoint.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxPolygon.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxPolyline.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxPropertySet.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTerrain.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTerrainArray.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTile.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTileLayer.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTileOffset.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxTileset.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\TmxUtil.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tmxparser\base64\base64.h">
+      <Filter>tmxparser\base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tinyxml\tinyxml2.h">
+      <Filter>tmxparser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Rocket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Dungeon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Goblin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContactObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\WeaponProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MachineGun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TurretBoss.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TurretBossProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Totem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\TotemProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\lua\src\Makefile">
+      <Filter>lua</Filter>
+    </None>
+    <None Include="..\tmxparser\tmxparser.pc.in">
+      <Filter>tmxparser</Filter>
+    </None>
+    <None Include="..\tmxparser\Tmx.h">
+      <Filter>tmxparser</Filter>
+    </None>
+  </ItemGroup>
+</Project>
